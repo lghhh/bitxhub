@@ -9,13 +9,13 @@ require (
 	github.com/coreos/go-systemd v0.0.0-20190719114852-fd7a80b32e1f // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/ethereum/go-ethereum v1.9.13
-	github.com/fatih/color v1.7.0 // indirect
 	github.com/gobuffalo/envy v1.9.0 // indirect
 	github.com/gobuffalo/packd v1.0.0
 	github.com/gobuffalo/packr v1.30.1
 	github.com/gogo/protobuf v1.3.1
-	github.com/golang/mock v1.4.3
+	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.4.2 // indirect
+	github.com/golangci/golangci-lint v1.23.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/grpc-ecosystem/grpc-gateway v1.13.0
 	github.com/hokaccha/go-prettyjson v0.0.0-20190818114111-108c894c2c0e
@@ -32,9 +32,7 @@ require (
 	github.com/rs/cors v1.7.0
 	github.com/sirupsen/logrus v1.5.0
 	github.com/spf13/cast v1.3.0
-	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/spf13/viper v1.6.1
-	github.com/stretchr/objx v0.2.0 // indirect
 	github.com/stretchr/testify v1.4.0
 	github.com/syndtr/goleveldb v1.0.1-0.20190923125748-758128399b1d
 	github.com/tidwall/gjson v1.3.5
@@ -45,6 +43,9 @@ require (
 	github.com/willf/bloom v2.0.3+incompatible
 	go.uber.org/atomic v1.6.0
 	google.golang.org/grpc v1.27.1
+	rsc.io/quote/v3 v3.1.0 // indirect
 )
+
+replace github.com/meshplus/bitxhub-core => ../bitxhub-core
 
 go 1.13
